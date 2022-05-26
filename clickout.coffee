@@ -1,7 +1,5 @@
 window.click_out_subscribers = []
 
-get_elements = (subscriber)->
-
 resolve_elems = (subscriber)->
   $elems = null
   if subscriber.selector
